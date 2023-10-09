@@ -1,12 +1,12 @@
 # Copper
-Welcome to the Copper, code perception module!
+Welcome to the Copper, module for estimation of code perception!
 This model will allow you to quickly and easily assess the human-perceivable quality of answers to questions related to Python development.
 
 To start using the model, just copy the code from the pipeline notebook and download the corresponding files.
 The src folder contains the notebooks used in the development.
-You can also read more about the architecture and operation of the model in the article [].
+You can also read more about the architecture and model training in the article [].
 
-Example usage:
+Example of usage:
 
 	model = PerceptionEstimator(device="cuda")
 	question = """
